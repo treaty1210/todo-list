@@ -6,7 +6,31 @@
     <title>To-Do List</title>
 </head>
 <body>
-    <div class="content"></div>
+    <div class="content">
+        <div class="header">
+            <h1>To-Do List</h1>
+        </div>
+        <form action="">
+            <label for="title">Task:</label>
+            <input type="text" id="title">
+
+            <label for="description">Description:</label>
+            <input type="text" id="description">
+
+            <label for="dueDate">Due Date/Deadline:</label>
+            <input type="date" id="dueDate">
+
+            <label for="priority">Priority:</label>
+            <input list="priority">
+                <datalist id="priority">
+                    <option value="Low">Low</option>
+                    <option value="Medium">Medium</option>
+                    <option value="High">High</option>
+                </datalist>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
