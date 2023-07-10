@@ -2,7 +2,7 @@
 function createDefaultProject() {
     console.log('testing createProject module')
     let projectArray = [];
-    let projectTitle = 'Test Title'
+    let projectTitle = 'Default Title'
     projectArray.push(projectTitle)
     console.log(projectArray)
     return { projectArray, projectTitle}
