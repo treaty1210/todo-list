@@ -4,9 +4,9 @@ import createDefaultProject from "./createDefaultProject";
 function initialDOM() {
     //creates the header area with a title
     const content = document.querySelector('.content')
-    const header = document.createElement('h1')
-    header.textContent = 'To-Do List'
-    content.appendChild(header)
+    // const header = document.createElement('h1')
+    // header.textContent = 'To-Do List'
+    // content.appendChild(header)
 
     //create the initial project
     const projectDiv = document.createElement('div');
