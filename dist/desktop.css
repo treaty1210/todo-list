@@ -1,3 +1,5 @@
 @media only screen and (min-width: 769px) {
-    
+    .logo {
+        background-image: url(../images/bg-desktop-light.jpg);
+    }
 }
