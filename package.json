@@ -1,22 +1,18 @@
 {
-  "dependencies": {
-    "date-fns": "^2.30.0"
-  },
-  "name": "todo-list",
+  "name": "todo-app",
   "version": "1.0.0",
-  "description": "the odin project: todo list",
+  "description": "To-Do List",
   "main": "index.js",
-  "devDependencies": {
-    "webpack": "^5.88.1",
-    "webpack-cli": "^5.1.4"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/treaty1210/todo-list.git"
-  },
+  "keywords": [
+    "To-Do"
+  ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  }
 }
