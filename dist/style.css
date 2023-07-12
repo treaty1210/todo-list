@@ -1,3 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: hsl(0, 0%, 98%);
+    font-size: 18px;
+}
+
+.container {
+    display: grid;
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 70px 20px;
+}
+
+.title {
+    font-size: 26px;
+    color: white;
+    font-weight: 700;
+}
+
+.switchDark, .switchLight {
+    justify-self: flex-end;
+}
+
+.userInput, .list, .statusBar, .footer {
+    justify-self: center;
+}
+
 .attribution { 
     font-size: 11px; text-align: center; 
 }
