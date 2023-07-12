@@ -2,6 +2,7 @@ import createToDo from "./createToDo";
 import createDefaultProject from "./createDefaultProject";
 import initialDOM from "./initialDOM";
 import createItem from "./addItem";
+import saveLocal from "./saveLocal";
 
 //create the initial blank project
 createDefaultProject()
@@ -19,4 +20,5 @@ document.querySelector("#createItem").addEventListener("click", (e) => {
     createItem();
     let newItem = new createToDo(title, description, dueDate, priority)
     console.log(newItem)
+    saveLocal()
 })
