@@ -9,13 +9,40 @@
     min-height: 5vh;
     position: relative;
     bottom: 90px;
+    
 }
 
 .userInput > input {
     width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 3px hsl(233, 11%, 84%);
+}
+
+ul {
+    min-width: 75vw;
     border: 1px solid white;
     border-radius: 7px;
+    position: relative;
+    bottom: 80px;
+    background-color: white;
+    box-shadow: 0 0 3px hsl(233, 11%, 84%);
 }
+
+ul > li {
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid hsl(233, 11%, 84%);
+    padding: 2px 2px;
+}
+
+ul > li:last-child{
+    border-bottom: 1px solid white;
+}
+
 .logo {
     background-image: url(../images/bg-mobile-light.jpg);
 }
