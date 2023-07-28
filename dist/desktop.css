@@ -1,5 +1,40 @@
 @media only screen and (min-width: 769px) {
+
+    .container {
+        grid-template-areas: 
+        'logo'
+        'userInput'
+        'list'
+        'statusBar'
+        'footer'
+    }
     .logo {
         background-image: url(../images/bg-desktop-light.jpg);
+        gap: 100px;
+        grid-area: logo;
+    }
+
+    .title {
+        justify-self: flex-end;
+    }
+
+    .switchDark, .switchLight {
+        justify-self: flex-start;
+    }
+
+    .userInput {
+        grid-area: userInput;
+    }
+
+    .list {
+        grid-area: list;
+    }
+
+    .statusBar {
+        grid-area: statusBar;
+    }
+
+    .footer {
+        grid-area: footer;
     }
 }
