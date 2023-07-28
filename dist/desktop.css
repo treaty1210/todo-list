@@ -27,6 +27,7 @@
         grid-area: userInput;
         min-width: 75vw;
         height: 5vh;
+        /* need to adjust size for this or the input since it is a bit bigger than the list */
     }
 
     .userInput > input {
